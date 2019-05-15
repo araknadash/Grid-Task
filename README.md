@@ -8,6 +8,8 @@ directions which are left, right, up and down as the environment is in 2D space.
 are decided based on Deep Q network, which uses observation from the environment that
 consists of an obstacle, target and agent’s present location and decides what action has to
 be taken to improve the reward function.
+
+
 In this experiment, the agent is considered to have made a successful reach if it reaches
 the target successfully which results in a reward of +1. Similarly, the agent is considered
 to have made a collision if they reach an obstacle which results in a reward of -1, all of
